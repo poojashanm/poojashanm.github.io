@@ -2,17 +2,102 @@
 <html>
 <head>
 <style>
-.par{
-  border: 2px outset DarkSeaGreen;
-  background-color: Honeydew;
-  text-align: right;
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 200px;
+}
+aside {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #777;
+  height: 200px;
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+	height: auto;
+  }
 }
 </style>
 <body>
-<div class="par">
+<header>
   <h1>Parkavi Shan</h1>
-  <p>pooj4@gmail.com</p>
- </div>
+</header>
+<section>
+<article>
+  <h2> Profile</h2>
+  <h3>A highly motivated and hardworking individual looking for a responsible role in a reputable organization.</h3>
+</article>
+<aside>
+  <h2>Skills</h2>
+	<ul>
+	  <li>Organization skills</li>
+	  <li>Multi-Tasking Abilities</li>
+	  <li>Effective Communication</li>
+	  <li>Problem-solving Skills</li>
+	</ul>
+</aside>
+</section>
+<nav>
+<ul>
+  <li><a href="experience.html">Experience</a></li>
+  <li><a href="education.html">Educational Qualification</a></li>
+</ul>
+</nav>
 </body>
+<footer>
+  <p><b>Contact Details</b></p>
+  <p><a href="mailto:pooj4@gmail.com">pooj4@gmail.com</a></p>
+</footer>
 </head>
 </html> 
+  
