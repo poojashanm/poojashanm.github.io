@@ -1,4 +1,3 @@
-.first{
 * {
   box-sizing: border-box;
 }
@@ -51,27 +50,4 @@ footer {
     width: 100%;
 	height: auto;
   }
-}
-}
-.sec{
-.my {
-  background-color: #F4A460;
-  text-align: center;
-  color: black;
-  padding: 20px;
-}
-summary {
-  background-color: #FFE4B5;
-}
-details {
-  background-color: #FFE4B5;
-  height: auto;
-}
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  .my, summary, details {
-    width: 100%;
-	height: auto;
-  }
-}
 }
