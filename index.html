@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>RESUME</title>
-<link rel="stylesheet" href="my.css">
-</head>
-<body>
-<!-- Create a text with h1 font and with the specifications mentioned header css mentioned above -->
-<header>
-  <h1>Par Shan</h1>
-</header>
-<!-- Create a text with article character and with the specifications mentioned article css mentioned above -->
-<article>
-  <h2> Profile</h2>
-  <h3>A highly motivated and hardworking individual looking for a responsible role in a reputable organization.</h3>
-</article>
-<!-- Create a text from the rest of the texts and with the specifications mentioned aside css mentioned above -->
-<aside>
-  <h2>Skills</h2>
-  <!-- It creates a list -->
-	<ul>
-	  <li>Organization skills</li>
-	  <li>Multi-Tasking Abilities</li>
-	  <li>Effective Communication</li>
-	  <li>Problem-solving Skills</li>
-	</ul>
-</aside>
-<!-- Create a list with navigation bar and with the specifications mentioned nav css mentioned above -->
-<nav>
-  <ul>
-    <li><a href="experience.html">Experience</a></li>
-    <li><a href="education.html">Educational Qualification</a></li>
-  </ul>
-</nav>
-</body>
-<!-- Create a text in the footer of the page and with the specifications mentioned footer css mentioned above -->
-<footer>
-  <p><b>Contact Details</b></p>
-  <p><a href="mailto:pooj4@gmail.com">pooj4@gmail.com</a></p>
-</footer>
-</html> 
-  
+    <head>
+        <title>Layout</title>
+        <link rel="stylesheet" type="text/css" href="my.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="container_12">
+                <div class="grid_5">
+                    <h2 width="216" height="37"> Parkavi Shan </h2>
+                    <img src="logo.png" alt="" width="120" height="110"/>
+                </div>
+                <div class="nav grid_7">
+                    <a href="">HOME</a><br><br><a href="">ABOUT</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="mains container_12">
+                <div class="grid_6 push_6">
+                    <h1>GIS Analyst</h1>
+                </div>
+                <div class="intro grid_6 push_9">
+                    <h2 class="dom">Professional Summary</h2>
+                    <h2>Determined GIS analyst with over five years of digital mapping experience. 
+                        Skilled in creating GIS databases, presenting findings in reports and using mapping software.</h2>
+                    <h2>Skills</h2>
+                    <!-- It creates a list -->
+                        <ul class="list">
+                            <li>Programming</li>
+                            <li>Digital mapping</li>
+                            <li>Analytical thinking</li>
+                            <li>Spatial data management</li>
+                            <li>Data analysis</li>
+                            <li>Data entry</li>
+                            <li>Data collection</li>
+                            <li>Communication</li>
+                            <li>Collaboration</li>
+                            <li>Attention to detail</li>
+                            <li>Multi-Tasking Abilities</li>
+                            <li>Effective Communication</li>
+                        </ul>
+                </div>
+            </div><!-- .mains -->
+            <div class="morecontent container_12">
+                <h2 class="grid_12">EXPERIENCE</h2>
+                <div class="grid_3">
+                    <h3>GIS analyst - Planet Tech Software</h3>
+                    <p>May 2019–Present</p>
+                    <p>Design digital maps using collection equipment and database, Collaborate with clients and stakeholders weekly to discuss mapping purposes, Maintain a digital library of over 1,000 maps</p>
+                </div>
+                <div class="grid_3">
+                    <h3>Junior GIS analyst - Bradford Engineering Group</h3>
+                    <p>July 2017–May 2019</p>
+                    <p>Assisted with the creation of over 40 new mapping projects, Analyzed mapping data for six engineering clients, Updated and maintained geographic databases</p>
+                </div>
+                <div class="grid_3">
+                    <h3>Data intern - Better Way Solutions</h3>
+                    <p>May 2015–August 2015</p>
+                    <p>Input geographic data into databases and reviewed for accuracy, Assisted with the creation of interactive digital maps, Collaborated with a design team to create a new digital mapping software program</p>
+                </div>
+                <h2 class="grid_12">PROJECT</h2>
+                <div class="grid_3">
+                    <h3>Mapping Local Landmarks</h3>
+                    <p>The project provides a comprehensive and visually appealing resource for members, students etc.
+                        In this project, identified a list of notable landmarks in the area and then use geocoding libraries 
+                        or APIs to convert the addresses of the landmarks into geographic coordinates. Those are coordinates which are plotted on a map.
+                        The map could display the locations of the landmarks with additional attribute information on each landmark, such as images, to create a more engaging and informative user experience.</p>
+                </div>
+            </div><!-- .morecontent -->
+        </div><!-- .wrap -->
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">Contact Details</p>
+                <a href="mailto:pooj4@gmail.com">pooj4@gmail.com</a>
+            </div>
+        </div>
+    </body>
+</html>
