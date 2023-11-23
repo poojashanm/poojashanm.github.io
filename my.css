@@ -53,6 +53,23 @@ h3 {
     padding: 10px 20px;
     font-size: 90%;
     line-height: 1.4em;}
+.mains {
+    background-position: 122px 142px;
+    height: 570px;}
+.morecontent {
+    color: #53524d;
+    border: 1px solid #ffffff;
+    padding: 10px;}
+.morecontent p {
+    color: #53524d;
+    border: 1px solid #53524d;
+    padding: 10px 10px 10px 10px;
+    font-size: 100%;}
+.list {
+    padding: 50px 50px 50px 100px;
+    text-align: left;
+    font-size: 150%;
+    column-count: 2;}
 
 .mains1 {
     background-position: 122px 142px;
