@@ -95,13 +95,11 @@ h3 {
     color: #53524d;
     background-color: #F5DEB3;
     border: 1px solid #ffffff;
-    padding: 10px;
     text-align: left;}
 /* Style the specific paragraph tags of the class .morecontent1 and positions it in the browser window */
 .morecontent1 p {
     color: #53524d;
     border: 1px solid #53524d;
-    padding: 10px 10px 10px 10px;
     font-size: 150%;
     text-align: center;
     text-shadow: #53524d;}
