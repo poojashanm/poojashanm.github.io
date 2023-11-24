@@ -2,32 +2,44 @@
 <html lang="en">
     <head>
         <title>Shan RESUME</title>
-        <link rel="stylesheet" type="text/css" href="my.css" />
+        <!-- links to the external css stylesheet -->
+        <link rel="stylesheet" href="my.css">
     </head>
     <body>
+        <!-- creates a div element content based on the style mentioned in the class header of the css stylesheet -->
         <div class="header">
+            <!-- The container_12 acts as a  container for the whole page and indicates we are using 12 column grid -->
+            <!-- The HTML uses the class name to set the rules from the "960 Grid System ~ Core CSS." mentions-->
             <div class="container_12">
-                <div class="grid_5">
-                    <h2 width="216" height="37"> Parkavi Shan </h2>
-                    <img src="logo.png" alt="" width="120" height="110"/>
+                <!-- grid_4 creates a block that is four columns wide -->
+                <div class="grid_4">
+                    <h2> Parkavi Shan </h2>
+                    <!-- inserts the image with specified width and height -->
+                    <img src="logo.png" alt="" width="120" height="110">
                 </div>
-                <div class="nav grid_7">
-                    <a href="index.html">HOME</a><br><br><a href="page2.html">ABOUT</a>
+                <!-- grid_5 creates a block that is five columns wide -->
+                <!-- creates the navigation bar with the style of class .nav -->
+                <div class="nav grid_5">
+                    <a href="index.html">HOME</a> / <a href="page2.html">ABOUT</a>
                 </div>
             </div>
-        </div>
+        </div><!-- closes the div element .header -->
+        <!-- creates a div element content based on the style mentioned in the class wrap of the css stylesheet -->
         <div class="wrap">
+            <!-- creates a div element content based on the style mentioned in the class mains of the css stylesheet -->
             <div class="mains container_12">
-                <div class="grid_6 push_6">
+                <!-- grid_6 creates a block that is six columns wide and push_5 align the entire block five columns away from the left side of the 12 grid -->
+                <div class="grid_6 push_5">
                     <h1>GIS Analyst</h1>
                 </div>
-                <div class="intro grid_6 push_9">
+                <!-- grid_6 creates a block that is six columns wide and push_3 align the entire block three columns away from the left side of the 12 grid -->
+                <div class="intro grid_6 push_3">
                     <h2 class="dom">Professional Summary</h2>
                     <h2>Determined GIS analyst with over five years of digital mapping experience. 
                         Skilled in creating GIS databases, presenting findings in reports and using mapping software.</h2>
                     <h2>Skills</h2>
-                    <!-- It creates a list -->
-                        <ul class="list">
+                    <!-- It creates a list with the id #list  -->
+                        <ul id="list">
                             <li>Programming</li>
                             <li>Digital mapping</li>
                             <li>Analytical thinking</li>
@@ -41,38 +53,42 @@
                             <li>Multi-Tasking Abilities</li>
                             <li>Effective Communication</li>
                         </ul>
-                </div>
-            </div><!-- .mains -->
+                </div><!-- closes the div element .intro -->
+            </div><!-- closes the div element .mains -->
             <div class="morecontent container_12">
                 <h2 class="grid_12">EXPERIENCE</h2>
-                <div class="grid_3">
+                <!-- grid_3 creates a block that is three columns wide and push_1 align the entire block one column away from the left side of the 12 grid -->
+                <div class="grid_3 push_1">
                     <h3>GIS analyst - Planet Tech Software</h3>
                     <p>May 2019–Present</p>
                     <p>Design digital maps using collection equipment and database, Collaborate with clients and stakeholders weekly to discuss mapping purposes, Maintain a digital library of over 1,000 maps</p>
                 </div>
-                <div class="grid_3">
+                <div class="grid_3 push_1">
                     <h3>Junior GIS analyst - Bradford Engineering Group</h3>
                     <p>July 2017–May 2019</p>
                     <p>Assisted with the creation of over 40 new mapping projects, Analyzed mapping data for six engineering clients, Updated and maintained geographic databases</p>
                 </div>
-                <div class="grid_3">
+                <div class="grid_3 push_1">
                     <h3>Data intern - Better Way Solutions</h3>
                     <p>May 2015–August 2015</p>
                     <p>Input geographic data into databases and reviewed for accuracy, Assisted with the creation of interactive digital maps, Collaborated with a design team to create a new digital mapping software program</p>
                 </div>
                 <h2 class="grid_12">PROJECT</h2>
-                <div class="grid_3">
+                <!-- grid_10 creates a block that is ten columns wide and push_1 align the entire block one column away from the left side of the 12 grid -->
+                <div class="grid_10 push_1">
                     <h3>Mapping Local Landmarks</h3>
                     <p>The project provides a comprehensive and visually appealing resource for members, students etc.
                         In this project, identified a list of notable landmarks in the area and then use geocoding libraries 
                         or APIs to convert the addresses of the landmarks into geographic coordinates. Those are coordinates which are plotted on a map.
                         The map could display the locations of the landmarks with additional attribute information on each landmark, such as images, to create a more engaging and informative user experience.</p>
                 </div>
-            </div><!-- .morecontent -->
-        </div><!-- .wrap -->
+            </div><!-- closes the div element .morecontent -->
+        </div><!-- closes the div element .wrap -->
+        <!-- clearfix to ensure the browser knows the height of the containing box -->
         <div class="footer clearfix">
             <div class="container_12">
                 <p class="grid_12">Contact Details</p>
+                <!-- links to the mail -->
                 <a href="mailto:pooj4@gmail.com">pooj4@gmail.com</a>
             </div>
         </div>
