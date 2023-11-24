@@ -2,34 +2,47 @@
 <html lang="en">
     <head>
         <title>ABOUT Shan</title>
+        <!-- links to the external css stylesheet -->
         <link rel="stylesheet" type="text/css" href="my.css" />
     </head>
     <body>
+        <!-- creates a div element content based on the style mentioned in the class header of the css stylesheet -->
         <div class="header">
+            <!-- The container_12 acts as a  container for the whole page and indicates we are using 12 column grid -->
+            <!-- The HTML uses the class name to set the rules from the "960 Grid System ~ Core CSS." mentions-->
             <div class="container_12">
-                <div class="grid_5">
-                    <h2 width="216" height="37"> Parkavi Shan </h2>
-                    <img src="logo.png" alt="" width="120" height="110"/>
+                <!-- grid_4 creates a block that is four columns wide -->
+                <div class="grid_4">
+                    <h2> Parkavi Shan </h2>
+                    <!-- inserts the image with specified width and height -->
+                    <img src="logo.png" alt="" width="120" height="110">
                 </div>
-                <div class="nav grid_7">
-                    <a href="index.html">HOME</a><br><br><a href="page2.html">ABOUT</a>
+                <!-- grid_5 creates a block that is five columns wide -->
+                <!-- creates the navigation bar with the style of class .nav -->
+                <div class="nav grid_5">
+                    <a href="index.html">HOME</a> / <a href="page2.html">ABOUT</a>
                 </div>
             </div>
-        </div>
+        </div><!-- closes the div element .header -->
+        <!-- creates a div element content based on the style mentioned in the class wrap of the css stylesheet -->
         <div class="wrap">
+            <!-- creates a div element content based on the style mentioned in the class mains1 of the css stylesheet -->
             <div class="mains1 container_12">
-                <h1 class="dom">EDUCATION</h1>
+                <!-- grid_6 creates a block that is six columns wide and push_4 align the entire block four columns away from the left side of the 12 grid -->
+                <h1 class="dom grid_6 push_4">EDUCATIONAL QUALIFICATION</h1>
+                <!-- creates a table -->
                 <table>
+                    <!-- grid_6 creates a block that is six columns wide and push_5 align the entire block five columns away from the left side of the 12 grid -->
                     <h2 class="intro grid_6 push_9">
-                        <tr class="head">
-                            <th>Course</th>
+                        <tr class="head"><!-- creates a table row -->
+                            <th>Course</th><!-- creates a table head -->
                             <th>School/Institution</th>
                             <th>year of passing</th>
                             <th>percentage</th>
                         </tr>
                         <tr>
                             <th>M.Sc - Computer Science</th>
-                            <td>Chen University</td>
+                            <td>Chen University</td><!-- creates a table data -->
                             <td>2021</td>
                             <td>75%</td>
                         </tr>
@@ -52,9 +65,9 @@
                             <td>81%</td>
                         </tr>
                     </h2>
-                 </table>
-                 <div class="morecontent1 container_12">
-                    <div class="list1">
+                </table><!-- closes the table -->
+                <div class="morecontent1 container_12">
+                    <div class="list1 grid_10 push_1">
                         <p>Personal Profile</p>
                         <ul class="grid_3">
                             <li>Languages Known: English, Tamil</li>
@@ -62,9 +75,9 @@
                             <li>Residence: Quebec,Ontario</li>
                         </ul> 
                     </div>
-                </div>
+                </div><!-- closes the div element .morecontent1 -->
                 <div class="morecontent1 container_12">
-                    <div class="list1">
+                    <div class="list1 grid_10 push_1">
                         <p>Hobbies</p>
                         <ul class="grid_3">
                             <li>Dancing</li>
@@ -75,9 +88,11 @@
                 </div>
             </div>
         </div>
+      <!-- clearfix to ensure the browser knows the height of the containing box -->
         <div class="footer clearfix">
             <div class="container_12">
                 <p class="grid_12">Contact Details</p>
+                <!-- links to the mail -->
                 <a href="mailto:pooj4@gmail.com">pooj4@gmail.com</a>
             </div>
         </div>
