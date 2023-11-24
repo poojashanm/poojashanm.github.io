@@ -1,3 +1,5 @@
+/* Reference: " HTML & CSS design and build websites " - Jon Duckett */
+/* Style the entire content of the body in both pages and positions it in the browser window  */
 body {
     color: #F4A460;
     padding: 10px 10px 10px 10px;
@@ -5,11 +7,14 @@ body {
     font-size: 100%;
     margin: 1px;
     text-align: center;}
+/* Style the links in both pages and gives the text size  */
 a {
     color: #53524d;
     font-size: 100%;}
+/* Style the links in both pages with effect of hover */
 a:hover {
     color: #F4A460;}
+/* Style the class header and postions it in fixed place of the browser window */
 .header {
     color: #292726;
     background-color: #F5DEB3;
@@ -19,67 +24,81 @@ a:hover {
     top: 0px;
     width: 100%;
     z-index: 50;}
+/* Style the navigation bar with the class .nav in both pages  and positions it in the browser window */
 .nav {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F5DEB3;
     padding: 45px 45px 45px 75px;
     text-align: left;}
+/* Style the entire content of the class .wrap in both pages  and positions it in the browser window */
 .wrap {
     width: 960px;
     margin: 0px auto;
     background-color: #F5DEB3;
     background-position: 10px 10px;
     text-align: left;}
+/* Style the png image of the class .logo in both pages and positions it in the browser window */
 .logo {
     margin-bottom: 20px;}
+/* Style the <h1> html element in both pages  and positions the content inside in the browser window */
 h1 {
     padding: 10px 20px;
     font-size: 200%;
     margin-top: 140px;}
+/* Style the <h2> html element in both pages  and positions the content inside in the browser window */
 h2 {
     color: #53524d;
     padding: 20px 20px;
     text-align: center;}
+/* Style the <h3> html element in both pages  and gives text size and text style of the content inside */
 h3 {
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;}
+/* Style the entire content of the class .dom in both pages  and positions it in the browser window */
 .dom {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     color: #292726;}
+/* Style the entire content of the class .intro in both pages  and positions it in the browser window */
 .intro {
     color: #53524d;
     padding: 10px 20px;
     font-size: 90%;
     line-height: 1.4em;}
+/* Style the entire content of the class .mains and positions it in the browser window */
 .mains {
     background-position: 122px 142px;
     height: 570px;}
+/* Style the entire content of the class .morecontent and positions it in the browser window */
 .morecontent {
     color: #53524d;
     border: 1px solid #ffffff;
     padding: 10px;}
+/* Style the specific paragraph tags of the class .morecontent and positions it in the browser window */
 .morecontent p {
     color: #53524d;
     border: 1px solid #53524d;
     padding: 10px 10px 10px 10px;
     font-size: 100%;}
-.list {
+/* Style the list ID of the index page and splits the content into 2 columns */
+#list {
     padding: 50px 50px 50px 100px;
     text-align: left;
-    font-size: 150%;
+    font-size: 120%;
     column-count: 2;}
-
+/* Style the entire content of the class .mains1 and positions it in the browser window */
 .mains1 {
     background-position: 122px 142px;
     height: 100%;}
+/* Style the entire content of the class .morecontent1 and positions it in the browser window */
 .morecontent1 {
     color: #53524d;
     background-color: #F5DEB3;
     border: 1px solid #ffffff;
     padding: 10px;
     text-align: left;}
+/* Style the specific paragraph tags of the class .morecontent1 and positions it in the browser window */
 .morecontent1 p {
     color: #53524d;
     border: 1px solid #53524d;
@@ -87,38 +106,42 @@ h3 {
     font-size: 150%;
     text-align: center;
     text-shadow: #53524d;}
+/* Style the entire table and positions it in the browser window */
 table {
     background-position: 122px 142px;
     width: 100%;
     height: 700px;
     border-spacing: 10px;} 
+/* Style the spacing borders and background adjustments of table head and data and size of the of table data in the table of the page2 */
 th, td {
     padding: 30px 30px 30px 10px;
     border-spacing: 0px;
     font-size: 90%;
     margin: 0px; } 
+/* Style the borders and background-color of table head and alignment of table data of the page2 */
 th, td {
     text-align: left;
     background-color: #F4A460;
     border: 1px solid #292726;} 
+/* Style the borders and color of table row and alignment and spacing of the table heading the page2 */
 tr ,head th {
     color: #ffffff;
     background-color: #F4A460;
     border-bottom: 10px solid #292726;
     border-right: 5px solid #292726;
     text-align: center;
-    text-shadow: -1px -lpx 1px #292726;
     letter-spacing: 0.15em;}
-td {
-    text-shadow: 1px 1px 1px #292726; }
+/* Style the list1 class of the page2 */
 .list1 {
     padding: 10px 10px 10px 10px;
     text-align: left;
     font-size: 100%;}
+/* Style the footer and positions it in the browser window */
 .footer {
     color:#F4A460;
     background: #aeadaa;
     padding: 0.1px 20px 10px 20px;}
+/* Style the specific paragraph tags in the footer section */
 .footer p{
     color:#292726;
     font-family: Arial, Helvetica, sans-serif;
